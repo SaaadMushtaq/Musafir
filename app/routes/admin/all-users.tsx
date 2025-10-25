@@ -1,7 +1,15 @@
-import React from "react";
+import { Header } from "components";
 
 const AllUsers = () => {
-  return <div>Users Tables</div>;
+  return (
+    <main className="dashboard wrapper">
+      <Header
+        title="Trip Page"
+        description="Track activities, trends and popular destinations in realtime"
+      />
+      Dashboard page content
+    </main>
+  );
 };
 
 export default AllUsers;
